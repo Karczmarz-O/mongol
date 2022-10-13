@@ -1,0 +1,86 @@
+===========================================================================================================================
+
+Niezależność danych, Ochrona danych, Integralnosc d. , część inensjonala, cz. ekstjonalna 
+
+System zarzadzania baza danych to program zarzadzajcay danymi
+System bazy danych to baza danych i SZD
+
+===========================================================================================================================
+
+Model danych zintegrowany zbior zasad opisujacych dane,relacje i powiazania miedzy danymi. Składa sie z 3 komponentów: strukturalna (reguly budowy), manipulacyjna(zmiany struktury operacji), reguly integralnosci(stabilnosc systemu).
+
+MODELE DANYCH
+Model jednorodny - model w którym wszystkie dane są umieszczone w jednej tabeli, jednym arkuszu 
+
+Model hierarchiczny - wiele dzieci jeden ojciec | wszystko jest uporzadkowan wedlug pewnej hierarchi 
+
+Sieciowy model danych -  wszystko jest ze sobą powiązane
+
+Model relacyjno-obiektowy -  pozwala w tabelach relacyjnych tworzyc kolumny z danymi typu obiektowego
+
+M. Obiektowy - Obiektowy system zarządzania bazą danych jest systemem wspomagającym definiowanie, zarządzanie, utrzymywanie, zabezpieczanie i udostępnianie obiektowej bazy danych.
+
+M. Relacyjny - informacja jest zapisywana w tabeli w formie wierszy. Tabele tworza miedzy soba powiazania tkz relacje.
+
+M. postrelacyjny - zakłada że bazy relacyjne są poszerzone o elementy obiektywności, obsluge XML, rozwiazania analityczne i zapytania historyczne
+
+Hermetyzacja w zakresie obiektowym modelu danych - wplywa na spojnosc i integralonsc odwzorowania rzeczywistosci 
+
+===========================================================================================================================
+
+Baza danych - zbiór danych zapisanych zgodnie z określonymi regułami.
+
+Sieciowa baza danych -  zmodyfikowana wersja modelu hierarchicznego, pozwalająca na definiowanie relacji wiele-wiele w postaci struktury drzewiastej bez powtarzania poszczególnych wartości w ramach obiektu danych.
+
+Rozproszona baza danych - bazę danych, która nie jest ograniczona do jednego systemu, ale jest rozproszona w kilku lokalizacjach, tj. na wielu serwerach lub poprzez sieć serwerów w wielu lokalizacjach. Jest to baza danych składająca się z dwóch lub więcej plików.
+
+===========================================================================================================================
+
+Integralność danych = spójność danych
+
+-Integralność danych = spójność danych. funkcja SZBD.Funkcja która gwarantuje że dane nie zostaną usunięte lub zmienione w nieautoryzowany sposob.
+
+Zachowanie poprawności bazy danych - opiera sie na utrzymaniu poprawności w obrębie sementycznym, encji i referencyjnym.
+
+Integralność semantyczna - polega na utrzymaniu ograniczeń nakładanych na dane m.in.
+a) w określonej kolumnie tabeli musza znajdować się wylaczie dane 
+b) 
+
+Integralność encje - każdy schemat relacji który posiada klucz główny 
+
+Integralność referencyjna - każda wartośc klucza obcego jest równa wartości klucza właściwego 
+
+Encja - gdy potrzeba określić coś co reprezentuje obiekt lub grupe obiektów.
+
+relacja(zamiast tabel) -  jest to logiczne połaczenie miedzy tabelami bazy danych
+
+atrybut(zamiast kolumn) - 
+
+krotka(zamiast wiesz) - 
+
+Relacyjny model danych - wszystkie dane są przechowywane w 
+
+===========================================================================================================================
+
+Klucz podstawowy - minimalna kombinacji pól identyfikujcyh każdy rekord w tabeli 
+
+Klucz sztuczny - unikatowy numer identyfikacyjny
+
+Klucz obcy - jedno lub wiecej pól tabeli odwołują się do pola lub pól klucza podstawowego w innej tabeli.
+pokazuje w jaki sposób tabele są powiązane
+
+===========================================================================================================================
+
+Typy relacji
+
+Relacja "Jeden do jednego" - każdemu rekordowi z pierwszej tabeli odpowiada tylko jeden rekord z drugiej tabeli i każdemu rekordowi z drugiej tabeli odpowiadać tylko jeden rekord z pierwszej tabeli 
+
+Relacja "wiele do jednego" - każdemu rekordowi z pierwszej tabeli może odpowiadać najwyżej jeden rekord z drugiej tabeli i każdemu rekordowi z drugiej tabeli odpowiadać wiele rekord z pierwszej tabeli 
+
+Relacja "wiele do wielu" - każdemu rekordowi z pierwszej tabeli może odpowiadać wiele rekordów z drugiej tabeli i każdemu rekordowi z drugiej tabeli odpowiadać wiele rekordów z pierwszej tabeli 
+
+===========================================================================================================================
+
+https://pastebin.com/1KGX2v4n - 13.09
+
+===========================================================================================================================
